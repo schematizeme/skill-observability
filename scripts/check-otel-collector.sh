@@ -163,4 +163,3 @@ if [ "$erros" -gt 0 ]; then
   exit 1
 fi
 echo "OK: $verificados config(s) de Collector sem achados."
-exit 0

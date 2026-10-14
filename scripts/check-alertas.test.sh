@@ -32,7 +32,6 @@ caso() {
   fi
 }
 
-EXPR_OK='sum(rate(http_requests_total{code=~\"5..\"}[5m])) > 0.05'
 SLO_OK='(sum(rate(errors[1h])) / sum(rate(total[1h])) > (14.4 * 0.001)) and (sum(rate(errors[5m])) / sum(rate(total[5m])) > (14.4 * 0.001))'
 
 gera ErroAlto "sum(rate(http_requests_total[5m])) > 0.05" > "$T/verde.yaml"
