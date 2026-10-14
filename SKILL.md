@@ -1,7 +1,7 @@
 ---
 name: schematize-observability
 metadata:
-  version: 0.1.0
+  version: 0.1.1
 description: >-
   Observabilidade OpenTelemetry: traces, métricas, logs e profiling correlacionados, SLO com burn-rate, alerta com
   runbook, dashboards como código, Collector, Prometheus/Grafana. Use ao instrumentar ou definir SLO/alerta. Traz
@@ -17,7 +17,7 @@ observabilidade: o **padrão** (OpenTelemetry), os **três sinais + profiling**,
 código**, os **healthchecks** e a **stack self-hosted de referência**. As demais skills (base, infra,
 web, linguagens) mantêm só o que é **específico do contexto** e apontam para cá.
 
-**Versão:** skill `schematize-observability` v0.1.0. Changelog em `CHANGELOG.md`.
+**Versão:** skill `schematize-observability` v0.1.1. Changelog em `CHANGELOG.md`.
 
 ## Precedência e herança (leia antes de divergir)
 
