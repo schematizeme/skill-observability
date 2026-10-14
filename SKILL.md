@@ -3,9 +3,9 @@ name: schematize-observability
 metadata:
   version: 0.1.0
 description: >-
-  Observabilidade com OpenTelemetry: traces, métricas, logs e profiling correlacionados, SLO com burn-rate, alerta com
-  runbook, dashboards como código, Collector, Prometheus/Grafana/Loki/Tempo. Use ao instrumentar, definir SLO ou alerta,
-  revisar dashboard ou healthcheck. Traz gates.
+  Observabilidade OpenTelemetry: traces, métricas, logs e profiling correlacionados, SLO com burn-rate, alerta com
+  runbook, dashboards como código, Collector, Prometheus/Grafana. Use ao instrumentar ou definir SLO/alerta. Traz
+  gates.
 ---
 <!-- cross-skill: efeitos-externos.md, observabilidade.md -> schematize-engineering -->
 
