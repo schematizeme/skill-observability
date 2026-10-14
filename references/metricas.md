@@ -75,3 +75,5 @@ Label com id de usuário; `path` cru; métrica por tenant quando há milhares de
 agregado + tenant só em quem pagou por isso); histograma com buckets que não cercam o SLO; média no
 lugar de quantil; métrica criada em loop com nome dinâmico; counter que reinicia sem `rate()`
 tratar; gauge de "último valor" usado como contador.
+
+Métricas de bot de chat (latência de ack, 429, shard caído): o que medir em `schematize-bots → references/prazo-fila-rate-limit.md`.
