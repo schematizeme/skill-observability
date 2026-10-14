@@ -3,6 +3,14 @@
 Todas as mudanças relevantes deste pacote, no formato [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/),
 com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.2.0] — 2026-10-14
+Fecha o gate da skill-dev e aponta para as irmãs novas.
+
+### Alterado
+- `scripts/check-otel-collector.test.sh`: rótulos dos casos passam a `vermelho:`/`verde:` (o gate da skill-dev não reconhecia os casos plantados em maiúsculas); sem mudança de comportamento, 11 casos.
+- `description` reduzida a <=190 caracteres (orçamento do catálogo).
+- Ponteiros: alerta SEV1/SEV2 e resposta -> `schematize-incident`; "telemetria de operação não é analytics de produto" -> `schematize-analytics` (fronteiras do `SKILL.md`, §6 de `slo-alertas.md`).
+
 ## [0.1.1] — 2026-10-14
 Integração ao catálogo (grafo, skills.json, herdados) e correção do texto de precedência herdado.
 

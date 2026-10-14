@@ -79,4 +79,5 @@ rule (`assets/alertas-slo.rules.yaml`), agregando por serviço — **sem** label
 ## 6. On-call
 
 Escala com dono, canal, matriz de escalonamento, pós-incidente sem culpa que termina com a **camada
-implantada** (alerta/limite/teste), não com "vamos prestar atenção". Postmortem e ADR: `schematize-docs`.
+implantada** (alerta/limite/teste), não com "vamos prestar atenção". Alerta SEV1/SEV2 disparado, papéis (IC, comms, escriba) e postmortem blameless: `schematize-incident`
+(esta skill entrega o sinal e o runbook; a resposta é de lá). ADR: `schematize-docs`.

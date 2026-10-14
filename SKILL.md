@@ -3,9 +3,7 @@ name: schematize-observability
 metadata:
   version: 0.1.1
 description: >-
-  Observabilidade OpenTelemetry: traces, métricas, logs e profiling correlacionados, SLO com burn-rate, alerta com
-  runbook, dashboards como código, Collector, Prometheus/Grafana. Use ao instrumentar ou definir SLO/alerta. Traz
-  gates.
+  Observabilidade OpenTelemetry: traces, métricas, logs correlacionados, SLO com burn-rate, alerta com runbook, Collector. Use ao instrumentar ou definir SLO/alerta. Gates. Produto: analytics.
 ---
 <!-- cross-skill: efeitos-externos.md, observabilidade.md -> schematize-engineering -->
 
@@ -127,6 +125,10 @@ Assets prontos para copiar: `assets/otel-collector.yaml` · `assets/alertas-slo.
   `schematize-observability -> references/front-llm.md` dá o que o front herda.
 - **`schematize-ai`** — span por chamada de LLM, tokens, custo e qualidade
   (`references/observabilidade-llm.md`); a base OTel é daqui.
+- **`schematize-incident`** — o que acontece **depois** que o alerta SEV1/SEV2 dispara: declarar,
+  papéis, mitigar, comunicar, postmortem. Aqui nasce o sinal; lá, a resposta.
+- **`schematize-analytics`** — telemetria de **operação** não é analytics de **produto**: funil,
+  evento de negócio e experimento são de lá (consentimento/LGPD próprios); aqui, RED/USE/SLO.
 - **`schematize-docs`** — runbook, ADR, `/docs/slo.md` (`references/runbooks.md`).
 - **`schematize-qa`** — o teste que prova que o sinal é emitido; **`schematize-pentest`** — telemetria
   que vaza PII/segredo é achado dela.
